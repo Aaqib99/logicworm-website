@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="javascript.css">
+     <script>
+        //  function single(){
+        //      document.write("Single Clicked");
+        //  }
+        //  function double(){
+        //      document.write("Double Clicked");
+        //  }
+        //  for(var a =0;a<=10;a++){
+
+        //      if(a % 2 == 0){
+        //          document.write(a + " is even<br>");
+        //      }
+        //      else{
+        //          document.write(a + " is odd<br>");
+        //         }          
+        //  }
+         for(var c =1;  c<=5; c++){
+
+                for(var d = 1; d<=c; d++)
+                {
+                    document.write(c + " ");
+                }
+                document.write("<br>");
+         }
+         document.write("<br>");
+         for(var c =5;  c>=1; c--)
+         {
+            for(var d =1; d<=c; d++)
+                {
+                    document.write(c + " ");
+                }
+            document.write("<br>");
+         }
+         document.write("<br>");
+         document.write("<br>");
+         //for each loop which access the object array elements with index number
+
+         var z = ["aqib","hikmat","yasir","ismail"];     //for each loop
+         z.forEach(function(z,index){
+             document.write(index + " : " + z + "<br>");
+         });
+
+         document.write("<br>");
+         document.write("<br>");
+         
+         //obj array accessing one element
+         var Obj = 
+         {
+             firstName : "Aaqib",
+             lastName : "Khan",
+             Age : "26",
+             email : "aaqibkhan26990@gmail.com"
+         };
+        //  for(var xy=0; xy<Obj.length; xy++)
+        //  {
+            // document.write(Obj[s]+ "<br>");
+            document.write(Obj.lastName+ "<br>");
+        //  }
+        //  document.write(obj);
+
+            //for in loop to print elements in arry object
+            document.write("<br>");
+            document.write("<br>");
+            var forin = 
+         {
+             firstName : "yasir",
+             lastName : "alam",
+             Age : "22",
+             RollNumber : "7",
+             email : "yasiralam123@gmail.com",
+             class : "3rd year",
+             faculty : "Software" 
+
+         };
+         for(var kk in forin){
+             document.write(kk + " : " +forin[kk] + "<br>");
+         }
+
+     </script>
+     
+</head>
+
+<body>
+    <div id="text">
+    <center>
+    <!-- <button onclick="single()" id="single">Single Click me</button>
+    <button ondblclick="double()" id="double">Double Click me</button> -->
+    </center>
+</div>
+</body>

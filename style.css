@@ -1,0 +1,654 @@
+#main-menu {
+  background-image: url("bg.png");
+  color: rgb(253, 253, 249);
+  height: 570px;
+  background-size: contain;
+  width: 100%;
+  text-align: right;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul.menu-items {
+  padding-top: 18px;
+  padding-right: 160px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#img-id {
+  float: left;
+  padding-top: 20px;
+  padding-left: 20%;
+  padding-right: 10px;
+  display: inline;
+}
+
+.menu-items li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 255, 255);
+  display: inline;
+  padding: 16px;
+  right: 0;
+}
+h3#heading_lw {
+  padding-top: 20px;
+}
+
+#heading_lw {
+  text-transform: capitalize;
+  background: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+  padding-top: 0px;
+  text-align: left;
+  font-size: 18px;
+  float: left;
+}
+
+.first-p {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 15px;
+  align-content: center;
+  padding-top: 15px;
+  word-spacing: 4px;
+  line-height: 22px;
+}
+hr.services_line {
+  /* top: auto; */
+  margin-top: 15px;
+  width: 5%;
+}
+
+.middle_text {
+  font-family: sans-serif;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#awesome {
+  font-size: 25px;
+}
+
+.connect-btn-id {
+  color: #00e0d0;
+  background-color: transparent;
+  border: 1px solid #4aa3cc;
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  align-content: center;
+}
+
+.connect-btn-id:hover {
+  background-color: #4aa3cc;
+  color: black;
+}
+
+#home-id {
+  color: #00e0d0;
+}
+.image_id {
+  float: left;
+  padding-left: 239px;
+  padding-right: 129px;
+  padding-bottom: 65px;
+  padding-top: 72px;
+}
+.line {
+  width: 5%;
+  border-color: #00e0d0;
+  margin-top: 30px;
+}
+.lw-second {
+  padding: 35px 136px 46px 18px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+#second-lw-id {
+  font-size: 15px;
+  margin-bottom: -11px;
+}
+.dots {
+  display: block;
+  padding: 0px;
+  margin-top: 50px;
+}
+#second-text {
+  margin-top: 20px;
+}
+button.email-us {
+  margin-top: 20px;
+}
+.email-us {
+  color: #00e0d0;
+  background-color: #111111;
+  border: 1px solid #111111;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 15px;
+  align-content: center;
+}
+.email-us:hover {
+  background-color: #090753;
+  color: rgb(255, 255, 255);
+}
+i.fa-circle {
+  font-size: 7px;
+  color: #00e0d0;
+  /* border-color: aqua; */
+}
+#video-section {
+  background-image: url(Video.png);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#video-section img {
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  display: block;
+  padding-top: 157px;
+}
+#journey {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 255, 255);
+  /* display: inline; */
+  padding-left: 583px;
+  padding-top: 20px;
+  /* position: relative; */
+  /* right: 0; */
+  letter-spacing: 1px;
+}
+
+.services {
+  font-family: sans-serif;
+}
+#center_icon {
+  margin-bottom: 8px;
+}
+
+#lines {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 100px;
+}
+#web-design {
+  width: 33%;
+  float: left;
+  margin-bottom: 40px;
+  text-align: center;
+  border-bottom: rgb(201, 200, 200) solid 0.3px;
+  border-right: rgb(201, 200, 200) solid 0.3px;
+}
+.services_img {
+  margin-top: 40px;
+  cursor: pointer;
+}
+.services_p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  line-height: 1.4;
+  opacity: 70%;
+}
+.services_h3 {
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* .service_icons{
+        margin-top: 40px;
+        margin-left: 80px;
+        align-items: center;
+
+    }
+ .services_line{
+        width: 5%;
+    } */
+
+#team_text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: -709px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding-top: 64px;
+}
+#team_para {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: rgb(226, 226, 226);
+  padding-top: 18px;
+  word-spacing: 3px;
+  line-height: 19px;
+}
+.teamline {
+  width: 3%;
+  border-color: #e9e9e9;
+  margin-top: 15px;
+  position: relative;
+  z-index: 999;
+}
+.wrapper {
+  margin-top: 50px;
+}
+
+.wrapper h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-top: 12px;
+  text-align: center;
+  flex-wrap: wrap;
+  color: rgb(255, 255, 255);
+}
+
+.team .team_member {
+  border-style: inset;
+  margin: 2vmin;
+  width: 223px;
+  padding-bottom: 10px;
+  padding: -13px;
+  line-height: 25px;
+  color: #ffffff;
+  position: relative;
+}
+
+/* .team .team_member h3{
+        color: #81c644;
+        font-size: 26px;
+        margin-top: 50px;
+      } */
+
+/* .team .team_member p.role{
+        color: #ccc;
+        margin: 12px 0;
+        font-size: 12px;
+        text-transform: uppercase;
+      } */
+#teamimage {
+  width: -webkit-fill-available;
+  height: 700px;
+  /* padding-top: 50px; */
+}
+
+.team .team_member .team_img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: #fff;
+}
+
+.team .team_member .team_img img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+#kashif {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 11px;
+}
+#kashif1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(221, 221, 221);
+  font-size: 10px;
+  margin-top: 0px;
+}
+#part {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(226, 226, 226);
+  padding-top: 30px;
+  word-spacing: 3px;
+  line-height: 19px;
+}
+.hireus {
+  color: #00e0d0;
+  background-color: transparent;
+  border: 1px solid #4aa3cc;
+  width: 150px;
+  height: 40px;
+  margin-top: 35px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  /* align-content: center; */
+}
+.hireus:hover {
+  background-color: #4aa3cc;
+  color: black;
+}
+.moreprojects {
+  color: #1e1c82;
+  background-color: transparent;
+  border: 1px solid #4aa3cc;
+  width: 150px;
+  height: 40px;
+  margin-top: 55px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+.moreprojects:hover {
+  background-color: #4aa3cc;
+  color: black;
+}
+.portfolio {
+  margin-top: 96px;
+  color: black;
+  display: flex;
+  margin-left: 90px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#see {
+  margin-left: 800px;
+}
+#images2 {
+  margin-top: 30px;
+}
+img#portfolio {
+  height: 164px;
+}
+img#portfolio:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s;
+}
+
+#moreimages {
+  width: -webkit-fill-available;
+  height: 400px;
+  padding-top: 50px;
+}
+p#images_text {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 14px;
+  align-content: center;
+  margin-top: 15px;
+  color: #ffffff;
+  word-spacing: 8px;
+  line-height: 22px;
+}
+#double-quotes {
+  margin-top: -325px;
+  color: #ffffff;
+  height: 10px;
+}
+p#badar {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 25px;
+  color: #ffffff;
+  align-content: center;
+  word-spacing: 8px;
+  line-height: 22px;
+}
+p#software {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 11px;
+  opacity: 60%;
+  margin-top: 5px;
+  color: #ffffff;
+  align-content: center;
+  word-spacing: 4px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+#bb {
+  border-radius: 50%;
+  height: 4%;
+  width: 4%;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+#ss {
+  border-radius: 50%;
+  height: 3%;
+  width: 3%;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+#kk {
+  border-radius: 50%;
+  margin-left: 10px;
+  height: 3%;
+  width: 3%;
+  margin-bottom: 5px;
+}
+#aa {
+  border-radius: 50%;
+  margin-left: 10px;
+  height: 3%;
+  width: 3%;
+  margin-bottom: 5px;
+}
+#ii {
+  border-radius: 50%;
+  margin-left: 10px;
+  height: 3%;
+  width: 3%;
+  margin-bottom: 5px;
+}
+#left {
+  border-radius: 50%;
+  margin-left: 9px;
+  margin-bottom: 19px;
+  height: 15px;
+}
+#right {
+  border-radius: 50%;
+  margin-left: 12px;
+  color: beige;
+  height: 15px;
+  margin-bottom: 19px;
+}
+#formh1 {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 65px;
+  color: #000000;
+  word-spacing: 4px;
+  margin-left: -890px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+.container {
+  margin-top: 33px;
+  margin-left: 100px;
+}
+#name {
+  width: 472px;
+  height: 39px;
+  padding: 10px;
+}
+#email {
+  width: 472px;
+  height: 39px;
+  padding: 10px;
+}
+#message {
+  width: 472px;
+  height: 139px;
+  padding: 10px;
+}
+#subject {
+  width: 472px;
+  height: 39px;
+  padding: 10px;
+}
+#message {
+  width: 472px;
+  height: 139px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.sendbtn {
+  color: #1e1c82;
+  background-color: transparent;
+  border: 1px solid #4aa3cc;
+  width: 150px;
+  height: 40px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+.sendbtn:hover {
+  background-color: #4aa3cc;
+  color: black;
+}
+#happy {
+  margin-top: -390px;
+  padding-left: -211px;
+  margin-left: 811px;
+  font-family: sans-serif;
+}
+
+#upwork {
+  height: 90px;
+  margin-top: 20px;
+}
+img#upwork:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s;
+}
+#fiverr {
+  height: 90px;
+}
+img#fiverr:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s;
+}
+#freelancer {
+  height: 90px;
+}
+img#freelancer:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s;
+}
+#tc {
+  height: 90px;
+}
+img#tc:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s;
+}
+#footer {
+  height: 247px;
+  margin-top: 20px;
+  width: 1349px;
+}
+h3#lw2 {
+  margin-top: -25px;
+  margin-left: 63px;
+  color: #25c2ce;
+}
+#lw1 {
+  margin-top: -200px;
+  margin-left: 103px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+#footerpara {
+  margin-top: 20px;
+  margin-left: 1px;
+  line-height: 20px;
+}
+.help {
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+div#our-company {
+  margin-top: -142px;
+  margin-left: 533px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+#ourr {
+  color: #25c2ce;
+}
+#location {
+  height: 21px;
+  margin-top: 20px;
+}
+#bahria {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#loc {
+  display: flex;
+}
+#phone1 {
+  display: flex;
+  margin-top: 22px;
+}
+#num1 {
+  margin-top: 2px;
+  margin-left: 27px;
+}
+#stay {
+  margin-top: -120px;
+  margin-left: 922px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-family: sans-serif;
+  color: #25c2ce;
+}
+#subscribe1 {
+  width: 232px;
+  height: 39px;
+  padding: 10px;
+}
+.subscribe2 {
+  margin-top: 10px;
+}
+#fly {
+  margin-top: 11px;
+  height: 38px;
+  margin-left: 10px;
+}
+#last-email {
+  display: flex;
+}
+#social{
+    margin-left: 922px;
+}
+#fb{
+  margin-top: 20px;
+}
+#lastword{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  margin-top: 30px;
+  margin-left: 922px;
+}
